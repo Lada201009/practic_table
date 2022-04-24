@@ -40,7 +40,6 @@ thead th:nth-child(3) {
 thead th:nth-child(4) {
   background-color: #162955;
 }
-
 thead p{
   margin: 0;
 }
@@ -75,11 +74,12 @@ tfoot th:last-child {
   border-bottom-right-radius: var(--border-radius);
 }
 th>button{
-  width: 60px;
-  max-width: 100px;
+  width: 110px;
   margin: auto;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border: 1px solid black;
+  border: 1px solid #aaaaaa;
+  padding: 10px 30px;
+  background-color: #d3d3d3;
 }
